@@ -14,6 +14,7 @@
 		E6605CAC1AEC69EA00844D15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6605CAB1AEC69EA00844D15 /* Images.xcassets */; };
 		E6605CAF1AEC69EA00844D15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6605CAD1AEC69EA00844D15 /* LaunchScreen.xib */; };
 		E6605CBB1AEC69EB00844D15 /* InstaclimbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6605CBA1AEC69EB00844D15 /* InstaclimbTests.swift */; };
+		E6605CC51AEC81CE00844D15 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6605CC41AEC81CE00844D15 /* Problem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		E6605CB41AEC69EB00844D15 /* InstaclimbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaclimbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6605CB91AEC69EB00844D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6605CBA1AEC69EB00844D15 /* InstaclimbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaclimbTests.swift; sourceTree = "<group>"; };
+		E6605CC41AEC81CE00844D15 /* Problem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				E6605CAD1AEC69EA00844D15 /* LaunchScreen.xib */,
 				E6605CA31AEC69EA00844D15 /* Instaclimb.xcdatamodeld */,
 				E6605C9F1AEC69EA00844D15 /* Supporting Files */,
+				E6605CC41AEC81CE00844D15 /* Problem.swift */,
 			);
 			path = Instaclimb;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6605CA71AEC69EA00844D15 /* ViewController.swift in Sources */,
+				E6605CC51AEC81CE00844D15 /* Problem.swift in Sources */,
 				E6605CA21AEC69EA00844D15 /* AppDelegate.swift in Sources */,
 				E6605CA51AEC69EA00844D15 /* Instaclimb.xcdatamodeld in Sources */,
 			);
