@@ -17,9 +17,6 @@ class ViewController: UIViewController {
   var problems = [Problem]()
 
   @IBAction func vButtonPressed(sender: UIButton) {
-    println(sender.titleLabel?.text)
-    prevTime = NSDate()
-
     var text  = sender.titleLabel!.text!
     text.replaceRange(Range(start: text.startIndex, end: advance(text.startIndex, 1)), with: "")
     var grade = text.toInt()!
@@ -55,7 +52,10 @@ class ViewController: UIViewController {
 
   func makeAddSimpleHandler(grade: Int) -> ((UIAlertAction!) ->Void) {
     func handler(action: UIAlertAction!) {
-      println(grade)
+      prevTime = NSDate()
+      updateTimer()
+
+      problems.append(Problem(grade: grade))
     }
     return handler
   }

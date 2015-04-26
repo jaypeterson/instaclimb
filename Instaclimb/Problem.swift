@@ -10,6 +10,11 @@ import Foundation
 
 class Problem {
   var grade: Int?
-  var dates: [NSDate]?
-  
+  var dates: [NSDate]
+
+  init(grade: Int) {
+    self.grade = grade
+    self.dates = [NSDate]()
+    self.dates.append(NSDate())
+  }
 }
